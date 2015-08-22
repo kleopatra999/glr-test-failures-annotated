@@ -120,8 +120,8 @@ t/spec/S32-list/permutations.t                              (Wstat: 512 Tests: 2
 t/spec/S32-list/reduce.t                                    (Wstat: 768 Tests: 15 Failed: 3)
 t/spec/S32-list/pick.rakudo.moar                            (Wstat: 256 Tests: 57 Failed: 1)
 t/spec/S32-list/squish.rakudo.moar                          (Wstat: 768 Tests: 9 Failed: 3)
-t/spec/S32-str/index.t                                      (Wstat: 1024 Tests: 44 Failed: 4)
-t/spec/S32-str/rindex.t                                     (Wstat: 65280 Tests: 35 Failed: 0)
+t/spec/S32-str/index.t                                      (Wstat: 1024 Tests: 44 Failed: 4)  not GLR related, was fixed in nom with 14939e39d24541cc29fd12688ba27aa0e64c6673
+t/spec/S32-str/rindex.t                                     (Wstat: 65280 Tests: 35 Failed: 0) not GLR related, was fixed in nom with 14939e39d24541cc29fd12688ba27aa0e64c6673
 t/spec/integration/99problems-01-to-10.t                    (Wstat: 1536 Tests: 22 Failed: 6)
 t/spec/integration/99problems-11-to-20.t                    (Wstat: 65280 Tests: 1 Failed: 0)
 t/spec/integration/99problems-21-to-30.t                    (Wstat: 65280 Tests: 7 Failed: 0)
