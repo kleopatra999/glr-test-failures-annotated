@@ -73,7 +73,6 @@ t/spec/S09-subscript/multidim-assignment.t                  (Wstat: 65280 Tests:
 t/spec/S09-typed-arrays/arrays.rakudo.moar                  (Wstat: 768 Tests: 48 Failed: 3)
 t/spec/S12-attributes/instance.rakudo.moar                  (Wstat: 256 Tests: 147 Failed: 1)
 t/spec/S12-introspection/parents.t                          (Wstat: 512 Tests: 59 Failed: 2)
-t/spec/S12-methods/accessors.t                              (Wstat: 512 Tests: 8 Failed: 2)
 t/spec/S12-methods/calling_sets.rakudo.moar                 (Wstat: 65280 Tests: 5 Failed: 0)
 t/spec/S12-methods/defer-next.rakudo.moar                   (Wstat: 768 Tests: 21 Failed: 3)
 t/spec/S12-methods/parallel-dispatch.rakudo.moar            (Wstat: 512 Tests: 19 Failed: 2)
