@@ -67,14 +67,12 @@ t/spec/S06-signature/passing-arrays.t                       (Wstat: 256 Tests: 1
 t/spec/S06-signature/positional.t                           (Wstat: 256 Tests: 13 Failed: 1)
 t/spec/S06-signature/sigilless.t                            (Wstat: 256 Tests: 10 Failed: 1)
 t/spec/S06-signature/unpack-array.t                         (Wstat: 256 Tests: 12 Failed: 1)
-t/spec/S09-autovivification/autoincrement.t                 (Wstat: 65280 Tests: 2 Failed: 0)
-t/spec/S09-autovivification/autovivification.rakudo.moar    (Wstat: 65280 Tests: 42 Failed: 0)
+t/spec/S09-autovivification/autoincrement.t                 [[0]] doesn't create a nested array, and neither does [$[0]], so not easy to fix
+t/spec/S09-autovivification/autovivification.rakudo.moar    @a[1;2] = 3 dies
 t/spec/S09-subscript/multidim-assignment.t                  (Wstat: 65280 Tests: 0 Failed: 0)
 t/spec/S09-typed-arrays/arrays.rakudo.moar                  (Wstat: 768 Tests: 48 Failed: 3)
-t/spec/S12-attributes/instance.rakudo.moar                  (Wstat: 256 Tests: 147 Failed: 1)
-t/spec/S12-introspection/parents.t                          (Wstat: 512 Tests: 59 Failed: 2)
+t/spec/S12-attributes/instance.rakudo.moar                  Typed array-attribute doesn't enforce type constraint in .push
 t/spec/S12-methods/calling_sets.rakudo.moar                 (Wstat: 65280 Tests: 5 Failed: 0)
-t/spec/S12-methods/defer-next.rakudo.moar                   (Wstat: 768 Tests: 21 Failed: 3)
 t/spec/S12-methods/parallel-dispatch.rakudo.moar            (Wstat: 512 Tests: 19 Failed: 2)
 t/spec/S15-nfg/many-threads.t                               (Wstat: 65280 Tests: 0 Failed: 0)
 t/spec/S16-filehandles/io.rakudo.moar                       (Wstat: 512 Tests: 119 Failed: 2)
