@@ -99,14 +99,14 @@ t/spec/S19-command-line-options/03-dash-p.t                 (Wstat: 512 Tests: 2
 t/spec/S17-supply/batch.t                                   (Wstat: 1536 Tests: 11 Failed: 6)
 t/spec/S29-context/die.rakudo.moar                          (Wstat: 65280 Tests: 4 Failed: 0)
 t/spec/S29-conversions/hash.t                               (Wstat: 65280 Tests: 2 Failed: 0)
-t/spec/S32-array/create.t                                   (Wstat: 512 Tests: 6 Failed: 2)
+t/spec/S32-array/create.t                                   typed arrays don't enforce type checks of elements in .new
 t/spec/S32-array/delete.t                                   (Wstat: 65280 Tests: 12 Failed: 0)
 t/spec/S32-array/delete-adverb.t                            (Wstat: 512 Tests: 218 Failed: 2)
 t/spec/S32-array/keys_values.t                              (Wstat: 65280 Tests: 6 Failed: 0)
 t/spec/S32-array/perl.t                                     (Wstat: 256 Tests: 6 Failed: 1)
 t/spec/S32-array/push.t                                     (Wstat: 1024 Tests: 52 Failed: 4)
 t/spec/S32-array/splice.rakudo.moar                         (Wstat: 65280 Tests: 57 Failed: 0)
-t/spec/S32-container/roundrobin.rakudo.moar                 (Wstat: 256 Tests: 5 Failed: 1)
+t/spec/S32-container/roundrobin.rakudo.moar                 roundrobin(1; 1..5; 'a'..'c'); does not interpolate the ranges; expected?
 t/spec/S32-container/zip.rakudo.moar                        (Wstat: 1024 Tests: 11 Failed: 4)
 t/spec/S32-hash/delete-adverb.t                             (Wstat: 1536 Tests: 131 Failed: 6)
 t/spec/S32-hash/kv.t                                        (Wstat: 512 Tests: 27 Failed: 2)
