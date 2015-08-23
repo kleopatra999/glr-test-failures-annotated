@@ -123,9 +123,7 @@ t/spec/integration/99problems-51-to-60.t                    (Wstat: 1024 Tests: 
 t/spec/integration/99problems-61-to-70.t                    (Wstat: 256 Tests: 2 Failed: 1)
 t/spec/integration/advent2009-day05.t                       (Wstat: 256 Tests: 17 Failed: 1)
 t/spec/integration/advent2009-day06.t                       (Wstat: 256 Tests: 15 Failed: 1)
-t/spec/integration/advent2009-day23.rakudo.moar             (Wstat: 65280 Tests: 9 Failed: 0)
 t/spec/integration/advent2011-day23.t                       (Wstat: 1280 Tests: 55 Failed: 5)
 t/spec/integration/advent2012-day10.t                       (Wstat: 256 Tests: 20 Failed: 1)
-t/spec/integration/advent2013-day07.t                       (Wstat: 256 Tests: 6 Failed: 1)
+t/spec/integration/advent2013-day07.t                       === with Lists of literals
 t/spec/integration/precompiled.rakudo.moar                  (Wstat: 256 Tests: 7 Failed: 1)
-t/spec/rosettacode/sierpinski_triangle.t                    (Wstat: 256 Tests: 1 Failed: 1)
