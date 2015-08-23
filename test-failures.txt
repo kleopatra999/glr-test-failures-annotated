@@ -43,7 +43,6 @@ t/spec/S04-exceptions/pending.rakudo.moar                   (Wstat: 65280 Tests:
 t/spec/S04-phasers/begin.rakudo.moar                        (Wstat: 0 Tests: 13 Failed: 0)
 t/spec/S04-phasers/first.t                                  (Wstat: 768 Tests: 4 Failed: 3)
 t/spec/S04-phasers/next.rakudo.moar                         (Wstat: 2048 Tests: 13 Failed: 8)
-t/spec/S04-statement-modifiers/if.t                         (Wstat: 512 Tests: 13 Failed: 2)
 t/spec/S04-statement-modifiers/unless.t                     (Wstat: 512 Tests: 8 Failed: 2)
 t/spec/S04-statement-modifiers/with.rakudo.moar             (Wstat: 65280 Tests: 20 Failed: 0)
 t/spec/S04-statement-modifiers/without.t                    (Wstat: 65280 Tests: 4 Failed: 0)
@@ -106,7 +105,6 @@ t/spec/S32-io/IO-Socket-Async.rakudo.moar                   (Wstat: 65280 Tests:
 t/spec/S32-list/categorize.t                                (Wstat: 65280 Tests: 0 Failed: 0)
 t/spec/S32-list/classify.rakudo.moar                        (Wstat: 256 Tests: 35 Failed: 1)
 t/spec/S32-list/combinations.t                              (Wstat: 1024 Tests: 8 Failed: 4)
-t/spec/S32-list/grep-index.rakudo.moar                      (Wstat: 256 Tests: 40 Failed: 1)
 t/spec/S32-list/map.rakudo.moar                             (Wstat: 1280 Tests: 56 Failed: 5)
 t/spec/S32-list/map_function_return_values.t                my %h = <a b c>.map({ $_, .uc}) dies with "Odd number of elements", because Hash.STORE does not flatten.
 t/spec/S32-list/permutations.t                              (Wstat: 512 Tests: 2 Failed: 2)
