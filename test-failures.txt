@@ -4,7 +4,7 @@ t/spec/S02-names-vars/list_array_perl.rakudo.moar           (Wstat: 512 Tests: 2
 t/spec/S02-types/array.rakudo.moar                          (Wstat: 3328 Tests: 97 Failed: 13)
 t/spec/S02-types/bag.rakudo.moar                            (Wstat: 2304 Tests: 195 Failed: 9)
 t/spec/S02-types/baghash.rakudo.moar                        (Wstat: 2816 Tests: 184 Failed: 11)
-t/spec/S02-types/declare.rakudo.moar                        (Wstat: 65280 Tests: 18 Failed: 0)
+t/spec/S02-types/declare.rakudo.moar                        Fixed in roast/master with 7e0c2b0cd0
 t/spec/S02-types/flattening.t                               (Wstat: 2816 Tests: 41 Failed: 11)
 t/spec/S02-types/hash.rakudo.moar                           (Wstat: 1024 Tests: 95 Failed: 4)
 t/spec/S02-types/list.t                                     (Wstat: 512 Tests: 54 Failed: 2)
@@ -83,7 +83,7 @@ t/spec/S17-supply/on.t                                      (Wstat: 1024 Tests: 
 t/spec/S17-supply/rotor.rakudo.moar                         (Wstat: 65280 Tests: 2 Failed: 0)
 t/spec/S17-supply/zip-latest.t                              (Wstat: 512 Tests: 12 Failed: 2)
 t/spec/S17-supply/zip.t                                     (Wstat: 512 Tests: 10 Failed: 2)
-t/spec/S19-command-line-options/02-dash-n.t                 (Wstat: 768 Tests: 3 Failed: 3)
+t/spec/S19-command-line-options/02-dash-n.t                 Method 'FOR' not found for invocant of class 'Seq'
 t/spec/S19-command-line-options/03-dash-p.t                 (Wstat: 512 Tests: 2 Failed: 2)
 t/spec/S29-context/die.rakudo.moar                          (Wstat: 65280 Tests: 4 Failed: 0)
 t/spec/S29-conversions/hash.t                               (Wstat: 65280 Tests: 2 Failed: 0)
