@@ -83,7 +83,6 @@ t/spec/S17-lowlevel/lock.rakudo.moar                        (Wstat: 256 Tests: 8
 t/spec/S17-promise/start.rakudo.moar                        (Wstat: 65280 Tests: 14 Failed: 0)
 t/spec/S17-supply/categorize.t                              (Wstat: 256 Tests: 20 Failed: 2)
 t/spec/S17-supply/classify.t                                (Wstat: 1536 Tests: 39 Failed: 6)
-t/spec/S17-supply/map.t                                     (Wstat: 512 Tests: 9 Failed: 2)
 t/spec/S17-supply/min.t                                     (Wstat: 512 Tests: 10 Failed: 2)
 t/spec/S17-supply/minmax.t                                  (Wstat: 65280 Tests: 5 Failed: 3)
 t/spec/S17-supply/on.t                                      (Wstat: 65280 Tests: 2 Failed: 0)
