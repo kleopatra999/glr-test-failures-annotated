@@ -68,7 +68,6 @@ t/spec/S09-subscript/multidim-assignment.t                  (Wstat: 65280 Tests:
 t/spec/S09-typed-arrays/arrays.rakudo.moar                  (Wstat: 768 Tests: 48 Failed: 3)
 t/spec/S12-attributes/instance.rakudo.moar                  Typed array-attribute doesn't enforce type constraint in .push
 t/spec/S12-methods/parallel-dispatch.rakudo.moar            (Wstat: 65280 Tests: 15 Failed: 0)
-t/spec/S15-nfg/many-threads.t                               (Wstat: 65280 Tests: 0 Failed: 0)
 t/spec/S16-filehandles/io.rakudo.moar                       (Wstat: 512 Tests: 119 Failed: 2)
 t/spec/S16-io/bare-say.t                                    (Wstat: 256 Tests: 7 Failed: 1)
 t/spec/S16-io/say.t                                         say(@array) inserts spurious whitespaces
@@ -107,7 +106,6 @@ t/spec/S32-list/classify.rakudo.moar                        (Wstat: 256 Tests: 3
 t/spec/S32-list/combinations.t                              (Wstat: 1024 Tests: 8 Failed: 4)
 t/spec/S32-list/map.rakudo.moar                             (Wstat: 1280 Tests: 56 Failed: 5)
 t/spec/S32-list/map_function_return_values.t                my %h = <a b c>.map({ $_, .uc}) dies with "Odd number of elements", because Hash.STORE does not flatten.
-t/spec/S32-list/permutations.t                              (Wstat: 512 Tests: 2 Failed: 2)
 t/spec/S32-list/pick.rakudo.moar                            (Wstat: 256 Tests: 57 Failed: 1)
 t/spec/S32-list/reduce.t                                    (Wstat: 768 Tests: 15 Failed: 3)
 t/spec/S32-list/squish.rakudo.moar                          (Wstat: 768 Tests: 9 Failed: 3)
@@ -124,4 +122,4 @@ t/spec/integration/advent2009-day06.t                       (Wstat: 256 Tests: 1
 t/spec/integration/advent2011-day23.t                       (Wstat: 1280 Tests: 55 Failed: 5)
 t/spec/integration/advent2012-day10.t                       (Wstat: 256 Tests: 20 Failed: 1)
 t/spec/integration/advent2013-day07.t                       === with Lists of literals
-t/spec/integration/precompiled.rakudo.moar                  (Wstat: 256 Tests: 7 Failed: 1)
+t/spec/integration/precompiled.rakudo.moar                  something related to typed arrays
