@@ -53,7 +53,6 @@ t/spec/S09-autovivification/autoincrement.t                 [[0]] doesn't create
 t/spec/S09-autovivification/autovivification.rakudo.moar    @a[1;2] = 3 dies
 t/spec/S09-subscript/multidim-assignment.t                  (Wstat: 65280 Tests: 0 Failed: 0)
 t/spec/S09-typed-arrays/arrays.rakudo.moar                  (Wstat: 768 Tests: 48 Failed: 3)
-t/spec/S16-io/bare-say.t                                    (Wstat: 256 Tests: 7 Failed: 1)
 t/spec/S16-io/say.t                                         say(@array) inserts spurious whitespaces
 t/spec/S17-channel/earliest.t                               (Wstat: 65280 Tests: 3 Failed: 0)
 t/spec/S17-promise/start.rakudo.moar                        (Wstat: 65280 Tests: 14 Failed: 0)
@@ -67,14 +66,10 @@ t/spec/S17-supply/zip-latest.t                              (Wstat: 512 Tests: 1
 t/spec/S17-supply/zip.t                                     (Wstat: 512 Tests: 10 Failed: 2)
 t/spec/S29-conversions/hash.t                               (Wstat: 65280 Tests: 2 Failed: 0)
 t/spec/S32-array/delete.t                                   (Wstat: 65280 Tests: 12 Failed: 0)
-t/spec/S32-array/keys_values.t                              (Wstat: 65280 Tests: 6 Failed: 0)
-t/spec/S32-array/perl.t                                     (Wstat: 256 Tests: 6 Failed: 1)
 t/spec/S32-array/push.t                                     (Wstat: 1024 Tests: 52 Failed: 4)
 t/spec/S32-container/roundrobin.rakudo.moar                 roundrobin(1; 1..5; 'a'..'c'); does not interpolate the ranges; expected?
 t/spec/S32-container/zip.rakudo.moar                        (Wstat: 1024 Tests: 11 Failed: 4)
 t/spec/S32-exceptions/misc.rakudo.moar                      (Wstat: 1280 Tests: 343 Failed: 5)
-t/spec/S32-hash/delete-adverb.t                             (Wstat: 1536 Tests: 131 Failed: 6)
-t/spec/S32-hash/slice.rakudo.moar                           (Wstat: 768 Tests: 29 Failed: 3)
 t/spec/S32-io/IO-Socket-Async.rakudo.moar                   (Wstat: 65280 Tests: 3 Failed: 0)
 t/spec/S32-list/categorize.t                                (Wstat: 65280 Tests: 0 Failed: 0)
 t/spec/S32-list/classify.rakudo.moar                        (Wstat: 256 Tests: 35 Failed: 1)
