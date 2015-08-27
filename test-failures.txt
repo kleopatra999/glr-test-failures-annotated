@@ -74,8 +74,6 @@ t/spec/S32-list/map_function_return_values.t                my %h = <a b c>.map(
 t/spec/S32-list/pick.rakudo.moar                            (Wstat: 256 Tests: 57 Failed: 1)
 t/spec/S32-list/reduce.t                                    (Wstat: 768 Tests: 15 Failed: 3)
 t/spec/S32-list/seq.t                                       (Wstat: 512 Tests: 3 Failed: 2)
-t/spec/S32-str/index.t                                      not GLR related, was fixed in nom with 14939e39d24541cc29fd12688ba27aa0e64c6673
-t/spec/S32-str/rindex.t                                     not GLR related, was fixed in nom with 14939e39d24541cc29fd12688ba27aa0e64c6673
 t/spec/integration/99problems-21-to-30.t                    (Wstat: 65280 Tests: 7 Failed: 0)
 t/spec/integration/99problems-51-to-60.t                    (Wstat: 1024 Tests: 20 Failed: 4)
 t/spec/integration/advent2009-day06.t                       (Wstat: 256 Tests: 15 Failed: 1)
