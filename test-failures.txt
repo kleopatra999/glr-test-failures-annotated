@@ -15,25 +15,18 @@ t/spec/S02-types/nested_arrays.t                            (Wstat: 256 Tests: 8
 t/spec/S02-types/nil.rakudo.moar                            (Wstat: 256 Tests: 52 Failed: 1)
 t/spec/S02-types/set.rakudo.moar                            (Wstat: 768 Tests: 98 Failed: 3)
 t/spec/S02-types/sethash.rakudo.moar                        (Wstat: 4864 Tests: 185 Failed: 19)
-t/spec/S02-types/undefined-types.rakudo.moar                (Wstat: 256 Tests: 50 Failed: 1)
-t/spec/S03-feeds/basic.rakudo.moar                          (Wstat: 65280 Tests: 12 Failed: 0)
 t/spec/S03-operators/assign.rakudo.moar                     (Wstat: 7680 Tests: 294 Failed: 30)
-t/spec/S03-operators/context-forcers.rakudo.moar            (Wstat: 1024 Tests: 97 Failed: 4)
-t/spec/S03-operators/context.t                              (Wstat: 256 Tests: 38 Failed: 1)
 t/spec/S03-operators/reduce-le1arg.rakudo.moar              (Wstat: 256 Tests: 54 Failed: 1)
 t/spec/S03-operators/repeat.rakudo.moar                     (Wstat: 65280 Tests: 28 Failed: 0)
-t/spec/S03-sequence/arity0.t                                (Wstat: 65280 Tests: 3 Failed: 0)
-t/spec/S03-sequence/basic.t                                 (Wstat: 65280 Tests: 133 Failed: 0)
+t/spec/S03-sequence/basic.t                                 The endpoint in ([]...[]) is flattened out
 t/spec/S03-sequence/misc.t                                  (Wstat: 65280 Tests: 6 Failed: 0)
 t/spec/S03-sequence/nonnumeric.rakudo.moar                  (Wstat: 65280 Tests: 24 Failed: 0)
 t/spec/S03-smartmatch/array-array.rakudo.moar               (Wstat: 1536 Tests: 38 Failed: 6)
 t/spec/S04-blocks-and-statements/pointy-rw.t                (Wstat: 2048 Tests: 10 Failed: 8)
 t/spec/S04-blocks-and-statements/pointy.rakudo.moar         (Wstat: 256 Tests: 18 Failed: 1)
 t/spec/S04-declarations/will.rakudo.moar                    (Wstat: 1024 Tests: 20 Failed: 4)
-t/spec/S04-exceptions/pending.rakudo.moar                   (Wstat: 65280 Tests: 4 Failed: 0)
-t/spec/S04-phasers/first.t                                  (Wstat: 768 Tests: 4 Failed: 3)
-t/spec/S04-phasers/next.rakudo.moar                         (Wstat: 2048 Tests: 13 Failed: 8)
-t/spec/S04-statement-modifiers/with.rakudo.moar             (Wstat: 65280 Tests: 20 Failed: 0)
+t/spec/S04-phasers/first.t                                  FIRST phasers don't fire
+t/spec/S04-phasers/next.rakudo.moar                         NEXT phasers don't fire
 t/spec/S04-statement-modifiers/without.t                    (Wstat: 65280 Tests: 4 Failed: 0)
 t/spec/S04-statements/do.rakudo.moar                        (Wstat: 256 Tests: 29 Failed: 1)
 t/spec/S04-statements/for-scope.t                           (Wstat: 256 Tests: 16 Failed: 1)
@@ -42,7 +35,6 @@ t/spec/S04-statements/for_with_only_one_item.t              (Wstat: 512 Tests: 9
 t/spec/S04-statements/gather.rakudo.moar                    (Wstat: 0 Tests: 0 Failed: 0)
 t/spec/S04-statements/lazy.rakudo.moar                      (Wstat: 65280 Tests: 0 Failed: 0)
 t/spec/S04-statements/sink.rakudo.moar                      (Wstat: 65280 Tests: 0 Failed: 0)
-t/spec/S05-substitution/subst.rakudo.moar                   (Wstat: 65280 Tests: 48 Failed: 0)
 t/spec/S05-transliteration/trans.rakudo.moar                (Wstat: 3072 Tests: 62 Failed: 12)
 t/spec/S06-other/main-usage.rakudo.moar                     (Wstat: 512 Tests: 26 Failed: 2)
 t/spec/S06-other/pairs-as-lvalues.rakudo.moar               (Wstat: 512 Tests: 5 Failed: 2)
@@ -52,9 +44,7 @@ t/spec/S06-signature/unpack-array.t                         (Wstat: 256 Tests: 1
 t/spec/S09-autovivification/autoincrement.t                 [[0]] doesn't create a nested array, and neither does [$[0]], so not easy to fix
 t/spec/S09-autovivification/autovivification.rakudo.moar    @a[1;2] = 3 dies
 t/spec/S09-subscript/multidim-assignment.t                  (Wstat: 65280 Tests: 0 Failed: 0)
-t/spec/S09-typed-arrays/arrays.rakudo.moar                  (Wstat: 768 Tests: 48 Failed: 3)
 t/spec/S16-io/say.t                                         say(@array) inserts spurious whitespaces
-t/spec/S17-channel/earliest.t                               (Wstat: 65280 Tests: 3 Failed: 0)
 t/spec/S17-promise/start.rakudo.moar                        (Wstat: 65280 Tests: 14 Failed: 0)
 t/spec/S17-supply/batch.t                                   (Wstat: 1536 Tests: 11 Failed: 6)
 t/spec/S17-supply/categorize.t                              (Wstat: 256 Tests: 20 Failed: 2)
@@ -65,7 +55,6 @@ t/spec/S17-supply/rotor.rakudo.moar                         (Wstat: 65280 Tests:
 t/spec/S17-supply/zip-latest.t                              (Wstat: 512 Tests: 12 Failed: 2)
 t/spec/S17-supply/zip.t                                     (Wstat: 512 Tests: 10 Failed: 2)
 t/spec/S29-conversions/hash.t                               (Wstat: 65280 Tests: 2 Failed: 0)
-t/spec/S32-array/delete.t                                   (Wstat: 65280 Tests: 12 Failed: 0)
 t/spec/S32-array/push.t                                     (Wstat: 1024 Tests: 52 Failed: 4)
 t/spec/S32-container/roundrobin.rakudo.moar                 roundrobin(1; 1..5; 'a'..'c'); does not interpolate the ranges; expected?
 t/spec/S32-container/zip.rakudo.moar                        (Wstat: 1024 Tests: 11 Failed: 4)
@@ -77,11 +66,9 @@ t/spec/S32-list/map.rakudo.moar                             (Wstat: 1280 Tests: 
 t/spec/S32-list/map_function_return_values.t                my %h = <a b c>.map({ $_, .uc}) dies with "Odd number of elements", because Hash.STORE does not flatten.
 t/spec/S32-list/pick.rakudo.moar                            (Wstat: 256 Tests: 57 Failed: 1)
 t/spec/S32-list/reduce.t                                    (Wstat: 768 Tests: 15 Failed: 3)
-t/spec/S32-list/squish.rakudo.moar                          (Wstat: 768 Tests: 9 Failed: 3)
 t/spec/S32-str/index.t                                      not GLR related, was fixed in nom with 14939e39d24541cc29fd12688ba27aa0e64c6673
 t/spec/S32-str/rindex.t                                     not GLR related, was fixed in nom with 14939e39d24541cc29fd12688ba27aa0e64c6673
 t/spec/integration/99problems-21-to-30.t                    (Wstat: 65280 Tests: 7 Failed: 0)
-t/spec/integration/99problems-41-to-50.t                    (Wstat: 512 Tests: 7 Failed: 2)
 t/spec/integration/99problems-51-to-60.t                    (Wstat: 1024 Tests: 20 Failed: 4)
 t/spec/integration/advent2009-day06.t                       (Wstat: 256 Tests: 15 Failed: 1)
 t/spec/integration/advent2011-day23.t                       (Wstat: 1280 Tests: 55 Failed: 5)
