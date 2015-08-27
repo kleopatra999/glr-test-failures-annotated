@@ -32,7 +32,6 @@ t/spec/S04-phasers/first.t                                  FIRST phasers don't 
 t/spec/S04-phasers/next.rakudo.moar                         NEXT phasers don't fire
 t/spec/S04-statement-modifiers/without.t                    (Wstat: 65280 Tests: 4 Failed: 0)
 t/spec/S04-statements/do.rakudo.moar                        (Wstat: 256 Tests: 29 Failed: 1)
-t/spec/S04-statements/for-scope.t                           (Wstat: 256 Tests: 16 Failed: 1)
 t/spec/S04-statements/for.rakudo.moar                       (Wstat: 256 Tests: 31 Failed: 1)
 t/spec/S04-statements/for_with_only_one_item.t              (Wstat: 512 Tests: 9 Failed: 2)
 t/spec/S04-statements/gather.rakudo.moar                    (Wstat: 0 Tests: 0 Failed: 0)
@@ -40,8 +39,6 @@ t/spec/S04-statements/lazy.rakudo.moar                      (Wstat: 65280 Tests:
 t/spec/S04-statements/sink.rakudo.moar                      (Wstat: 65280 Tests: 0 Failed: 0)
 t/spec/S05-transliteration/trans.rakudo.moar                (Wstat: 3072 Tests: 62 Failed: 12)
 t/spec/S06-other/pairs-as-lvalues.rakudo.moar               (Wstat: 512 Tests: 5 Failed: 2)
-t/spec/S06-signature/passing-arrays.t                       (Wstat: 256 Tests: 11 Failed: 1)
-t/spec/S06-signature/sigilless.t                            (Wstat: 256 Tests: 10 Failed: 1)
 t/spec/S06-signature/unpack-array.t                         (Wstat: 256 Tests: 15 Failed: 1)
 t/spec/S09-autovivification/autoincrement.t                 [[0]] doesn't create a nested array, and neither does [$[0]], so not easy to fix
 t/spec/S09-autovivification/autovivification.rakudo.moar    @a[1;2] = 3 dies
