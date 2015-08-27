@@ -40,7 +40,6 @@ t/spec/S04-statements/gather.rakudo.moar                    (Wstat: 0 Tests: 0 F
 t/spec/S04-statements/lazy.rakudo.moar                      (Wstat: 65280 Tests: 0 Failed: 0)
 t/spec/S04-statements/sink.rakudo.moar                      (Wstat: 65280 Tests: 0 Failed: 0)
 t/spec/S05-transliteration/trans.rakudo.moar                (Wstat: 3072 Tests: 62 Failed: 12)
-t/spec/S06-other/main-usage.rakudo.moar                     (Wstat: 512 Tests: 26 Failed: 2)
 t/spec/S06-other/pairs-as-lvalues.rakudo.moar               (Wstat: 512 Tests: 5 Failed: 2)
 t/spec/S06-signature/passing-arrays.t                       (Wstat: 256 Tests: 11 Failed: 1)
 t/spec/S06-signature/sigilless.t                            (Wstat: 256 Tests: 10 Failed: 1)
@@ -56,7 +55,6 @@ t/spec/S17-promise/start.rakudo.moar                        (Wstat: 65280 Tests:
 t/spec/S17-supply/batch.t                                   (Wstat: 1536 Tests: 11 Failed: 6)
 t/spec/S17-supply/categorize.t                              (Wstat: 256 Tests: 20 Failed: 2)
 t/spec/S17-supply/classify.t                                (Wstat: 1536 Tests: 39 Failed: 6)
-t/spec/S17-supply/minmax.t                                  (Wstat: 65280 Tests: 5 Failed: 3)
 t/spec/S17-supply/on.t                                      (Wstat: 1024 Tests: 10 Failed: 4)
 t/spec/S17-supply/rotor.rakudo.moar                         (Wstat: 65280 Tests: 2 Failed: 0)
 t/spec/S17-supply/zip-latest.t                              (Wstat: 512 Tests: 12 Failed: 2)
@@ -68,7 +66,6 @@ t/spec/S32-container/zip.rakudo.moar                        (Wstat: 1024 Tests: 
 t/spec/S32-exceptions/misc.rakudo.moar                      (Wstat: 1280 Tests: 343 Failed: 5)
 t/spec/S32-io/IO-Socket-Async.rakudo.moar                   (Wstat: 65280 Tests: 3 Failed: 0)
 t/spec/S32-list/categorize.t                                (Wstat: 65280 Tests: 0 Failed: 0)
-t/spec/S32-list/classify.rakudo.moar                        (Wstat: 256 Tests: 35 Failed: 1)
 t/spec/S32-list/map.rakudo.moar                             (Wstat: 1280 Tests: 56 Failed: 5)
 t/spec/S32-list/map_function_return_values.t                my %h = <a b c>.map({ $_, .uc}) dies with "Odd number of elements", because Hash.STORE does not flatten.
 t/spec/S32-list/reduce.t                                    (Wstat: 768 Tests: 15 Failed: 3)
