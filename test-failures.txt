@@ -20,7 +20,6 @@ t/spec/S03-metaops/hyper.rakudo.moar                        (Wstat: 65280 Tests:
 t/spec/S03-operators/assign.rakudo.moar                     (Wstat: 7680 Tests: 294 Failed: 30)
 t/spec/S03-operators/range.rakudo.moar                      (Wstat: 1024 Tests: 125 Failed: 4)
 t/spec/S03-operators/reduce-le1arg.rakudo.moar              (Wstat: 256 Tests: 54 Failed: 1)
-t/spec/S03-operators/repeat.rakudo.moar                     (Wstat: 65280 Tests: 28 Failed: 0)
 t/spec/S03-sequence/basic.t                                 The endpoint in ([]...[]) is flattened out
 t/spec/S03-sequence/misc.t                                  (Wstat: 65280 Tests: 6 Failed: 0)
 t/spec/S03-sequence/nonnumeric.rakudo.moar                  (Wstat: 65280 Tests: 24 Failed: 0)
