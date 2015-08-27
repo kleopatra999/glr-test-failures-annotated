@@ -49,7 +49,6 @@ t/spec/S09-autovivification/autovivification.rakudo.moar    @a[1;2] = 3 dies
 t/spec/S09-subscript/multidim-assignment.t                  (Wstat: 65280 Tests: 0 Failed: 0)
 t/spec/S09-typed-arrays/arrays.rakudo.moar                  (Wstat: 0 Tests: 77 Failed: 0)
 t/spec/S12-introspection/WHAT.rakudo.moar                   (Wstat: 65280 Tests: 28 Failed: 0)
-t/spec/S16-io/say.t                                         say(@array) inserts spurious whitespaces
 t/spec/S17-lowlevel/lock.rakudo.moar                        (Wstat: 139 Tests: 7 Failed: 1)
 t/spec/S17-promise/start.rakudo.moar                        (Wstat: 65280 Tests: 14 Failed: 0)
 t/spec/S17-supply/batch.t                                   (Wstat: 1536 Tests: 11 Failed: 6)
