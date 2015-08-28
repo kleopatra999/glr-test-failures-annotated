@@ -28,7 +28,6 @@ t/spec/S04-blocks-and-statements/pointy-rw.t                (Wstat: 2048 Tests: 
 t/spec/S04-blocks-and-statements/pointy.rakudo.moar         (Wstat: 256 Tests: 18 Failed: 1)
 t/spec/S04-declarations/will.rakudo.moar                    (Wstat: 1024 Tests: 20 Failed: 4)
 t/spec/S04-phasers/begin.rakudo.moar                        (Wstat: 0 Tests: 13 Failed: 0)
-t/spec/S04-phasers/first.t                                  FIRST phasers don't fire
 t/spec/S04-phasers/next.rakudo.moar                         NEXT phasers don't fire
 t/spec/S04-statement-modifiers/without.t                    (Wstat: 65280 Tests: 4 Failed: 0)
 t/spec/S04-statements/do.rakudo.moar                        (Wstat: 256 Tests: 29 Failed: 1)
